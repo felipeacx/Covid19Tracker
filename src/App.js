@@ -86,7 +86,7 @@ function App() {
       <Card className="app__right">
         <CardContent>
           <h3>Casos actuales por País</h3>
-          <Table countries={tableData}/>
+          <Table className="table" countries={tableData}/>
           <h3>Casos nuevos a Nivel Mundial</h3>
           {/*Graph*/}
         </CardContent>
